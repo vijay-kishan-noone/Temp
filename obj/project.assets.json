@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\rootadmin\\.nuget\\packages\\": {}
+    "C:\\Users\\11035974\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rootadmin\\source\\repos\\temp\\Phase4Assessment\\Phase4Assessment\\Phase4Assessment.csproj",
+      "projectUniqueName": "C:\\Users\\11035974\\source\\repos\\Temp\\Phase4Assessment.csproj",
       "projectName": "Phase4Assessment",
-      "projectPath": "C:\\Users\\rootadmin\\source\\repos\\temp\\Phase4Assessment\\Phase4Assessment\\Phase4Assessment.csproj",
-      "packagesPath": "C:\\Users\\rootadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rootadmin\\source\\repos\\temp\\Phase4Assessment\\Phase4Assessment\\obj\\",
+      "projectPath": "C:\\Users\\11035974\\source\\repos\\Temp\\Phase4Assessment.csproj",
+      "packagesPath": "C:\\Users\\11035974\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\11035974\\source\\repos\\Temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rootadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\11035974\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
