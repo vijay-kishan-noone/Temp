@@ -7,7 +7,7 @@ namespace Phase4Assessment.Models
 {
     public class PizzaBO
     {
-        List<PizzaModel> pizzas;
+        public static List<PizzaModel> pizzas;
         public PizzaBO()
         {
             pizzas = new List<PizzaModel>
@@ -64,11 +64,16 @@ namespace Phase4Assessment.Models
         }
         public List<PizzaModel> GetAllPizzas()
         {
-            return this.pizzas;
+            return pizzas;
         }
         public PizzaModel GetPizzaById(int id)
         {
-            return this.pizzas.Find(x => x.Id == id);
+            return pizzas.Find(x => x.Id == id);
+        }
+        public string GetPizzaByName(int id)
+        {
+            var pizza = pizzas.Find(x => x.Id == id);
+            return pizza.Name;
         }
     }
 }

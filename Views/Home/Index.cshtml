@@ -12,7 +12,7 @@
             </div>
             <img class="card-img-top" src="~/images/@item.ImageUrl" alt="Laptop Image" height="300px" />
             <div class="card-footer text-center">
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                <a id = "@item.Id" asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
             </div>
         </div>
     }
